@@ -1,7 +1,7 @@
 alias la='ls -al'
 alias ll='la -al'
 alias ks='ls'
-
+alias grep='grep --color'
 
 # enable the bash completion.
 
@@ -16,3 +16,4 @@ if [ "$(uname)" == "Darwin" ]; then
     . $(brew --prefix)/etc/bash_completion
   fi
 fi 
+
